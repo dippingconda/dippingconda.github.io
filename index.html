@@ -8,38 +8,52 @@
     <title>Resume 박수혁</title>
 </head>
 <body>
-    <div class="wrap">
-    <header>
-        <h1 class="resume">이력서</h1>
-        <nav>
-            <ul class="nav-items">
-                <li class="li-wrap"><a class="a-wrap" href="index.html">Home</a></li>
-                <li class="li-wrap"><a class="a-wrap" href="projects.html">Projects</a></li>
-                <li class="li-wrap"><a class="a-wrap" href="papers.html">Papers</a></li>
-            </ul>
-        </nav>
-    </header>
-    <article id="Introduction">
-        <h2>소개</h2>
-        <div class="row">
-            <div class="column">
-                <img class="profile-img"src="./images/profile.jpg"><img>
-            </div>
-            <div class="column">
-                <p>박 수 혁</p>
-            </div>
+    <div id="wrap">
+        <header>
+            <h1 class="resume">이력서</h1>
+            <nav>
+                <input class="nav-toggle" id="nav-toggle" type="checkbox">
+                <label class="navicon" for="nav-toggle"><span class="navicon-bar"></span></label>
+                <ul class="nav-items">
+                    <li class="li-wrap"><a class="a-wrap" href="index.html">Home</a></li>
+                    <li class="li-wrap"><a class="a-wrap" href="projects.html">Projects</a></li>
+                    <li class="li-wrap"><a class="a-wrap" href="papers.html">Papers</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content-wrap">
+            <aside>
+                <h1>Contents</h1>
+                <ul>
+                  <li><a href="#">소개</a></li>
+                  <li><a href="#">학력</a></li>
+                  <li><a href="#">경력</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article id="Introduction">
+                    <h3>지원자</h3>
+                    <div class="row">
+                        <div class="column">
+                            <img class="profile-img"src="./images/profile.jpg"><img>
+                        </div>
+                        <div class="column">
+                            <p>박 수 혁</p>
+                        </div>
+                    </div>
+                </article>
+                <article id="Education">
+                    <h3>학력</h3>
+                    <p>세종대학교 전자공학과(2010.03 ~ 2016.02)</p>
+                    <p>고려대학교 전기전자공학부 통신및네트워크(2018.09 ~ 2021.02)</p>
+                </article>
+                <article id="Career">
+                    <h3>경력</h3>
+                    <p>캔버스바이오 IC개발그룹 Logic팀 연구원(2015.12.14 ~ 2018.04.30)</p>
+                    <p>Role : ASIC logic 부문 설계</p>
+                </article>
+            </section>
         </div>
-    </article>
-    <article id="Education">
-        <h3>학력</h3>
-        <p>세종대학교 전자공학과(2010.03 ~ 2016.02)</p>
-        <p>고려대학교 전기전자공학부 통신및네트워크(2018.09 ~ 2021.02)</p>
-    </article>
-    <article id="Career">
-        <h3>경력</h3>
-        <p>캔버스바이오 IC개발그룹 Logic팀 연구원(2015.12.14 ~ 2018.04.30)</p>
-        <p>Role : ASIC logic 부문 설계</p>
-    </article>
     </div> 
 </body>
 </html>

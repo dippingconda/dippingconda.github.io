@@ -8,33 +8,49 @@
     <title>Resume 박수혁</title>
 </head>
 <body>
-    <header>
-        <h1 class="resume">이력서</h1>
-        <nav>
-            <ul class="nav-items">
-                <li class="li-wrap"><a class="a-wrap" href="index.html">Home</a></li>
-                <li class="li-wrap"><a class="a-wrap" href="projects.html">Projects</a></li>
-                <li class="li-wrap"><a class="a-wrap" href="papers.html">Papers</a></li>
-            </ul>
-        </nav>
-    </header>
-    <article id="Thesis">
-        <h4>Thesis</h4>
-        <ul>
-            <li>박수혁, 이상현, "이동체 대상 시스템을 위한 알고리즘 검증 플랫폼", Feb. 2021</li>
-        </ul>
-    </article>
-    <article id="Conference">
-        <h4>Domestic Conference</h4>
-        <ul>
-            <li>박수혁, 이상현, "제약 조건 만족을 통한 이동통신 네트워크 합 전송률 향상", JCCI 2019, Mar. 2019</li>
-        </ul>
-    </article>
-    <article id="Patents">
-        <h4>Domestic Patents</h4>
-        <ul>
-            <li>이동체의 협력 측위 유무 전략 및 스케줄링 결정 달성 장치 및 방법: KR1020200084249</li>
-        </ul>
-    </article>
+    <div id="wrap">
+        <header>
+            <h1 class="resume">이력서</h1>
+            <nav>
+                <input class="nav-toggle" id="nav-toggle" type="checkbox">
+                <label class="navicon" for="nav-toggle"><span class="navicon-bar"></span></label>
+                <ul class="nav-items">
+                    <li class="li-wrap"><a class="a-wrap" href="index.html">Home</a></li>
+                    <li class="li-wrap"><a class="a-wrap" href="projects.html">Projects</a></li>
+                    <li class="li-wrap"><a class="a-wrap" href="papers.html">Papers</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content-wrap">
+            <aside>
+                <h1>Contents</h1>
+                <ul>
+                  <li><a href="#">Thesis</a></li>
+                  <li><a href="#">Domestic Conference</a></li>
+                  <li><a href="#">Domestic Patent</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article id="Thesis">
+                    <h4>Thesis</h4>
+                    <ul>
+                        <li>박수혁, 이상현, "이동체 대상 시스템을 위한 알고리즘 검증 플랫폼", Feb. 2021</li>
+                    </ul>
+                </article>
+                <article id="Conference">
+                    <h4>Domestic Conference</h4>
+                    <ul>
+                        <li>박수혁, 이상현, "제약 조건 만족을 통한 이동통신 네트워크 합 전송률 향상", JCCI 2019, Mar. 2019</li>
+                    </ul>
+                </article>
+                <article id="Patent">
+                    <h4>Domestic Patent</h4>
+                    <ul>
+                        <li>이동체의 협력 측위 유무 전략 및 스케줄링 결정 달성 장치 및 방법: KR1020200084249</li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+    </div>
 </body>
 </html>

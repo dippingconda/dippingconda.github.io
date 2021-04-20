@@ -6,33 +6,48 @@
     <title>Resume 박수혁</title>
 </head>
 <body>
-    <header>
-        <h1 class="resume">이력서</h1>
-        <nav>
-            <ul class="nav-items">
-                <li class="li-wrap"><a class="a-wrap" href="index.html">Home</a></li>
-                <li class="li-wrap"><a class="a-wrap" href="projects.html">Projects</a></li>
-                <li class="li-wrap"><a class="a-wrap" href="papers.html">Papers</a></li>
-            </ul>
-        </nav>
-    </header>
-    <article id="FallDetection">
-        <h3>Fall Detection(낙상 감지)</h3>
-        <h4>기술 스택</h4>
-        <ul>
-            <li>Android(java></li>
-            <li>Web(javascript, node.js></li>
-            <li>Machine Learning(LSTM, CNN) with tensorflow on python</li>
-            <li>DB(RDBMS mariaDB, SQLite)</li>
-            <li>ROS(Robot OS)</li>
-        </ul>
-    </article>
-    <article id="Vehicle">
-        <h3>이동체 대상 시스템을 위한 위치 기반 검증 플랫폼</h3>
-        <h4>기술 스택</h4>
-        <ul>
-            <li>SUMO(Simulation of Urban MObility)</li>
-            <li>Unity</li>
-        </ul>
-    </article>
+    <div id=wrap>
+        <header>
+            <h1 class="resume">이력서</h1>
+            <nav>
+                <input class="nav-toggle" id="nav-toggle" type="checkbox">
+                <label class="navicon" for="nav-toggle"><span class="navicon-bar"></span></label>
+                <ul class="nav-items">
+                    <li class="li-wrap"><a class="a-wrap" href="index.html">Home</a></li>
+                    <li class="li-wrap"><a class="a-wrap" href="projects.html">Projects</a></li>
+                    <li class="li-wrap"><a class="a-wrap" href="papers.html">Papers</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content-wrap">
+            <aside>
+                <h1>Contents</h1>
+                <ul>
+                  <li><a href="#">Project 1</a></li>
+                  <li><a href="#">Project 2</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article id="FallDetection">
+                    <h3>Project 1 : Fall Detection(낙상 감지)</h3>
+                    <h4>기술 스택</h4>
+                    <ul>
+                        <li>Android(java></li>
+                        <li>Web(javascript, node.js></li>
+                        <li>Machine Learning(LSTM, CNN) with tensorflow on python</li>
+                        <li>DB(RDBMS mariaDB, SQLite)</li>
+                        <li>ROS(Robot OS)</li>
+                    </ul>
+                </article>
+                <article id="Vehicle">
+                    <h3>Project 2 : 이동체 대상 시스템을 위한 위치 기반 검증 플랫폼</h3>
+                    <h4>기술 스택</h4>
+                    <ul>
+                        <li>SUMO(Simulation of Urban MObility)</li>
+                        <li>Unity</li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+    </div>
 </body>
