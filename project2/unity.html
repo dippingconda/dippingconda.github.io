@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="shortcut icon" href="../cv.ico">
+    <title>Resume 박수혁</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="resume">이력서</h1>
+            <nav>
+                <input class="nav-toggle" id="nav-toggle" type="checkbox">
+                <label class="navicon" for="nav-toggle"><span class="navicon-bar"></span></label>
+                <ul class="nav-items">
+                    <li class="li-wrap"><a class="a-wrap" href="../index.html">Home</a></li>
+                    <li class="li-wrap"><a class="a-wrap" href="../projects.html">Projects</a></li>
+                    <li class="li-wrap"><a class="a-wrap" href="../publications.html">publications</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id=content-wrap>
+            <aside>
+                <h1>Contents</h1>
+                <ul>
+                  <li><a href="../project1/project1.html">Project 1</a></li>
+                  <li><a href="project2.html">Project 2</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article id="unity_desc">
+                    <h2>모듈 구현</h2>
+                    <ul>
+                        <li>SUMO로부터 생성한 지도 데이터(XML)로 Unity 상에 지도 생성(XML parsing)</li>
+                        <li>SUMO로부터 생성한 자동차 주행 경로 획득하여 Unity 상에 자동차 주행 생성(XML parsing)</li>
+                        <li>요검증 algoritm 구현</li>
+                    </ul>
+                </article>
+                <article id="proj2_img">
+                    <img style="width: 50%;" src="../images/unity_algo_test.png">
+                        <ul>
+                            <li>초록색 차량 : SUMO로부터 주행 위치 획득 차량</li>
+                            <li>노란색 차량 : 요검증 algorithm으로 주행 위치 획득 차량</li>
+                        </ul>
+                    <img style="width: 50%;" src="../images/unity_demo.png">
+                        <ul>
+                            <li>Unity에 제작한 전체 지도 및 다수 차량</li>
+                        </ul>
+                </article>
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
