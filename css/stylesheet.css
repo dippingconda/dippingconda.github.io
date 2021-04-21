@@ -35,7 +35,7 @@ body {
   -webkit-text-size-adjus: 100%;  /* iphone font size 변경 방지 */
 }
 ul > li { 
-  list-style: none; 
+  list-style-type: square; 
 }
 a { text-decoration: none; }
 h1, h2, h3, h4, h5, h6, p {
@@ -151,7 +151,8 @@ aside {
 }
 /* aside navigation */
 aside > ul {
-  width: 200px;
+  /*width: 200px;*/
+  width: auto;
 }
 aside > ul > li {
   display: block;
@@ -161,7 +162,8 @@ aside > ul > li {
 aside > ul > li > a {
   display: block;
   color: #fff;
-  padding: 10px 0 10px 20px;
+  /*padding: 10px 0 10px 20px;*/
+  word-wrap: break-word;
 }
 aside > h1 {
   word-wrap: break-word;
@@ -220,6 +222,7 @@ footer {
   }
   p {
     width: 800px;
+    overflow-wrap: break-word;
   }
 }
 /* for smartphone: ~ 480px */
@@ -239,13 +242,14 @@ footer {
   }
   aside {
     top: 60px;
-    width: 100px;
+    width: 150px;
+    font-size: 75%;
   }
   p {
-    width: 480px;
+    width: 100%;
   }
   section {
-      margin-left: 100px;
+      margin-left: 150px;
   }
   /* View navigation item */
   .nav-toggle:checked ~ .nav-items {
